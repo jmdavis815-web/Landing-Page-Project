@@ -1,0 +1,43 @@
+:root {
+    --bg-color--: #1D1E18;
+    --second-bg-color--: #6B8F71;
+    --text-color--: #D9FFF5;
+    --header-color--: #AAD2BA;
+    --second-header-color--: #B9F5D8;
+}
+
+/*== Main Background ==*/
+body {
+    background-color: var(--bg-color--);
+}
+
+/*== Header and Nav ==*/
+header {
+    background-color: var(--second-bg-color--);
+    border-color: var(--header-color--);
+}
+
+header h3 {
+    color: var(--second-header-color--);
+    text-shadow: 0px 1px 2px black;
+}
+
+/*== Links ==*/
+a {
+    text-decoration: none;
+    color: var(--second-header-color--);
+    text-shadow: 0px 1px 2px black;
+}
+
+a:hover {
+    color: var(--header-color--);
+}
+
+/*== Text ==*/
+body {
+    color: var(--text-color--);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--header-color--);
+}
