@@ -65,3 +65,11 @@ footer {
     color: var(--text-color--);
     border-top: 1px solid var(--header-color--);
 }
+
+#toastSuccess {
+    z-index: 1100;
+}
+
+#toastError {
+    z-index: 1100;
+}
