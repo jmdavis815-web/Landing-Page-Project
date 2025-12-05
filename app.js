@@ -23,8 +23,8 @@ async function createLead(){
 
     if(name === "" || email === "" || message === ""){ 
         showToastError()
-        return;
-    }
+
+    } else {
 
     let lead = {
         "name" : name , 
@@ -44,4 +44,5 @@ async function createLead(){
     console.log("Lead Created")
     showToastSuccess()
     
+    }
 }
