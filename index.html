@@ -11,7 +11,7 @@
     
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body onload="getProducts()">
 
     <!-- Header + Nav Section -->
     <header class="d-flex flex-row justify-content-between align-items-center p-2 mb-5 border-bottom fixed-top">
@@ -73,41 +73,10 @@
 
         <!-- Services Section -->
         <section id="service" class="row mb-3">
+            
             <h3 class="text-center mt-5 display-5">Our Services</h3>
 
-            <div class="col-lg-4 col-md-6 p-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="basic-site.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Basic Static Website</h5>
-                        <p class="card-text">(simple, minimal styling) Few pages</p>
-                        <a href="#" class="btn btn-primary">$375</a>
-                    </div>
-                </div>
-            </div>
-
-            <div id="service" class="col-lg-4 col-md-6 p-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="small-site.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Small Website</h5>
-                        <p class="card-text">(5-page business / informational site) Some styling and 
-                            basic interactivity included.</p>
-                        <a href="#" class="btn btn-primary">$750</a>
-                    </div>
-                </div>
-            </div>
-
-            <div id="service" class="col-lg-4 col-md-6 p-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="customized-site.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Customized Website</h5>
-                        <p class="card-text">More polished / customised static site (design, branding, responsive, some features)</p>
-                        <a href="#" class="btn btn-primary">$2000</a>
-                    </div>
-                </div>
-            </div>
+            
         </section>
 
         <!-- Contact Section -->
